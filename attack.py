@@ -463,7 +463,7 @@ def attack_PPRSA_instance(prime_bit_length, delta1, delta2, r = 2, s = 3):
             logging.info(f"Failed!")
             return 0, test_time
     else:
-        print(f"Sorry, cannot attack this CPRSA instance...")
+        print(f"Sorry, cannot attack this PPRSA instance...")
         return 0, test_time
 
 
